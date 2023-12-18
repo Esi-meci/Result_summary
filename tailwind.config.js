@@ -9,10 +9,10 @@ module.exports = {
     extend: {
       colors: {
         // Gradient Colors"
-        LightBlue: 'hsl(252, 100%, 67%)',
-        Light_RoyalBlue:'hsl(241, 81%, 54%)',
-        Violet_blue: 'hsla(256, 72%, 46%, 1)',
-        Persian_blue: 'hsla(241, 72%, 46%, 0)',
+        // LightBlue: 'hsl(252, 100%, 67%)',
+        // Light_RoyalBlue:'hsl(241, 81%, 54%)',
+        // Violet_blue: 'hsl(256, 72%, 46%)',
+        // Persian_blue: 'hsl(241, 72%, 46%)',
 
         // Neutral Colors        
         White: 'hsl(0, 0%, 100%)',

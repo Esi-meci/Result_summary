@@ -3,10 +3,25 @@
 @tailwind utilities;
 @import url('https://fonts.google.com/specimen/Hanken+Grotesk');
 
+
+:root {
+/* ||VARIABLES */
+--LIGHTBLUE: hsl(252, 100%, 67%);
+--LIGHT_ROYALBLUE: hsl(241, 81%, 54%);
+--VIOLET_BLUE: hsla(256, 72%, 46%, 1);
+--PERSIAN_BLUE: hsla(241, 72%, 46%, 0);
+}
+
 body {
     font-family: 'Hanken Grotesk';
 }
 
 .circle {
     border-radius: 100%;
+    /* background-color: var(--VIOLET_BLUE); */
+    background-image: linear-gradient(to bottom, var(--VIOLET_BLUE), var(--PERSIAN_BLUE));
+}
+
+.comment_bg {
+    background-image: linear-gradient(to bottom, var(--LIGHTBLUE), var(--LIGHT_ROYALBLUE));
 }
